@@ -1,5 +1,6 @@
 # TipCalculate
 CooderSchool pre-work
+
 **Tippy** is a tip calculator application for iOS.
 
 Submitted by: **Bui Tien Anh**
