@@ -175,7 +175,11 @@ class ViewController: UIViewController {
     }
     
     @IBAction func calculateTip(_ sender: AnyObject) {
-       calculate()
+        if Double(Billtextfield.text!) == 0 {
+            Billtextfield.text = ""
+        }else{
+            calculate()
+        }
     }
 }
 extension UIView {
